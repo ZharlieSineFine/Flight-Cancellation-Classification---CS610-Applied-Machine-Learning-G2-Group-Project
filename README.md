@@ -142,24 +142,6 @@ Keras MLP with BatchNorm and Dropout. 10 configurations tested across hidden lay
 
 ---
 
-## Results
-
-Final test-set performance (2023 data), ranked by **PR-AUC**:
-
-| Model | Dataset | PR-AUC | F2 | ROC-AUC | Precision | Recall |
-|---|---|---|---|---|---|---|
-| Neural Network | with_covid | **0.0775** | 0.200 | 0.715 | 0.080 | 0.321 |
-| Random Forest | with_covid | 0.0742 | 0.192 | 0.695 | 0.074 | 0.320 |
-| XGBoost | with_covid | 0.0739 | 0.184 | 0.709 | 0.066 | 0.332 |
-| Decision Tree | with_covid | 0.0591 | 0.169 | 0.700 | 0.060 | 0.306 |
-| XGBoost | no_covid | 0.0506 | 0.131 | 0.655 | 0.038 | 0.342 |
-| Neural Network | no_covid | 0.0494 | 0.141 | 0.646 | 0.044 | 0.320 |
-| Random Forest | no_covid | 0.0473 | 0.140 | 0.656 | 0.043 | 0.329 |
-| Logistic Regression | with_covid | 0.0450 | 0.098 | 0.580 | 0.023 | 0.506 |
-| Logistic Regression | no_covid | 0.0408 | 0.090 | 0.550 | 0.021 | 0.494 |
-| Decision Tree | no_covid | 0.0363 | 0.133 | 0.600 | 0.035 | 0.439 |
-| Route Baseline | — | 0.0297 | 0.116 | 0.601 | 0.028 | 0.561 |
-
 ### Key Takeaways
 
 - **All ML models beat the route baseline**, confirming that pre-departure features carry genuine predictive signal.

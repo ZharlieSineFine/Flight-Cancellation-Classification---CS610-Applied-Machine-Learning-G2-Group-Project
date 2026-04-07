@@ -11,9 +11,9 @@ This repository contains the full end-to-end machine learning pipeline for our C
 
 Flight cancellations are costly for airlines and disruptive for passengers, yet they are relatively rare (~2.6% of all flights). We frame this as a **binary classification** task — predicting `CANCELLED` (0 or 1) using only information available **before departure** (scheduled times, airline, route, weather forecasts).
 
-### Key Challenges
+### Issues to address
 
-| Challenge | Our Approach |
+| Issue | Our Approach |
 |---|---|
 | **Severe class imbalance** (97.4% vs 2.6%) | Cost-sensitive learning (`class_weight='balanced'`, `scale_pos_weight`) — no SMOTE/oversampling |
 | **Temporal distribution shift** (COVID-19 spike in 2020) | Strict temporal train/val/test split + `IS_COVID` ablation study |

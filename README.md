@@ -1,4 +1,4 @@
-# ✈️ Flight Cancellation Prediction — CS610 Applied Machine Learning (G2)
+# Flight Cancellation Prediction — CS610 Applied Machine Learning (G2)
 
 > **Can we predict whether a U.S. domestic flight will be cancelled _before_ it departs?**
 
